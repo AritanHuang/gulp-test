@@ -1,0 +1,25 @@
+$color: #00cc99;
+
+.header {
+    background: $color;
+    h1 {
+        font-size: 30px;
+        color: #fff;
+    }
+    a {
+        text-decoration: none;
+        color: blue;
+    }
+    a:hover {
+        color: red;
+    }
+}
+.content {
+    background: $color;
+    p {
+        font-size: 20px;
+        line-height: 1.5;
+        color: olive;
+        text-align: center;
+    }
+}
